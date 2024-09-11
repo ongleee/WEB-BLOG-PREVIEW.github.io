@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(228, 228, 228) 47%, rgba(125,123,123,1) 97%);
+}
+
+.background {
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.container-textheader {
+    /* background-color: azure; */
+    width: 50%;
+    margin: 0 auto; /* ทำให้ container อยู่ตรงกลาง */
+    display: block; /* ใช้ display block เพื่อให้ margin: auto ทำงาน */
+}
+
+.text-header-contact {
+    margin-top: 1rem;
+    text-align: left; /* จัดข้อความให้อยู่ด้านซ้าย */
+}
+
+.text-header-contact h1 {
+    color: #383636;
+    margin: 0; /* ลบระยะห่างของ h1 ถ้าจำเป็น */
+    border-bottom: 5px solid rgb(26, 38, 65);
+}

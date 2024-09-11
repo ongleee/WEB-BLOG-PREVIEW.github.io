@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="movetab.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <div class="logo">
+                <h1>⏺️Logo</h1>
+                <!-- <p>ติดตามข่าวสารทาง Facebook ได้ที่ Page : Simulation Adviser</p> -->
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#" class="active" onclick="goToHome()">หน้าแรก</a>
+                    </li>
+                    <li>
+                        <a href="#"  onclick="goToCourses()">คอร์สทั้งหมด</a>
+                    </li>
+                    <li>
+                        <a href="#"  onclick="goToContactus()">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+        <section class="container-slidepost">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary orange planet in space" />
+                    <img id="slide-2" src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary green planet in space" />
+                    <img id="slide-3" src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="3D rendering of an imaginary blue planet in space" />
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-tel">
+            <div class="text-tel">
+                <p>ไม่ต้องรอนาน!! ติดต่อสายด่วน ขอคำแนะนำ Hot Line</p>
+                <span>📞 09x-xxx xxx</span>
+            </div>
+        </div>
+
+        <div class="training-section">
+            <h1>Feature</h1>
+            <div class="container-card">
+                <div class="training-items">
+                    <img src="img/Engineering.png" alt="">
+                    <h3>Engineering</h3>
+                    <p>หลักสูตรอบรมทางด้านวิศวกรรม ด้วยโปรแกรม SolidWorks , AutoCAD</p>
+                    <!-- <button>Read More</button> -->
+                </div>
+                <div class="training-items">
+                    <img src="img/BIM.png" alt="">
+                    <h3>BIM Architect and Construction</h3>
+                    <p>หลักสูตรอบรมทางด้านการออกแบบ 3D และ ทางด้านงานก่อสร้าง ด้วยโปรแกรม SketchUp ,Blender ,Revit ,ArchiCAD ,Twinmotion</p>
+                    <!-- <button>Read More</button> -->
+                </div>
+                <div class="training-items">
+                    <img src="img/Present.png" alt="">
+                    <h3>Microsoft & Soft Skill</h3>
+                    <p>หลักสูตรอบรมการใช้งาน Microsoft และคอร์สอบรมพิเศษอื่นๆ</p>
+                    <!-- <button>Read More</button> -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="home-listcourse">
+            <div class="header-listcourse">
+                <h2>หลักสูตรยอดนิยม</h2>
+            </div>
+            <div class="list-coures">
+                <ul>
+                    <li>
+                        <img src="img/star.png" alt="">
+                        <div class="clist__detail">
+                            <div class="clist__title">
+                                <a href="">การเขียนแบบชิ้นงาน 3 มิติเบื้องต้น (SolidWorks Essentials)</a>
+                            </div>
+                            <div class="clist__inst">วิทยากร: ภัทรพล เลิศพัชรีกุล</div>
+                            <div class="clist__date">01 Jul - 04 Jul 2024</div>
+                            <div class="clist__price">12,000 บาท</div>
+                            <div class="clist__btn">
+                                <a href="">สมัครเรียน</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/star.png" alt="">
+                        <div class="clist__detail">
+                            <div class="clist__title">
+                                <a href="">การเขียนแบบชิ้นงาน 3 มิติเบื้องต้น (SolidWorks Essentials)</a>
+                            </div>
+                            <div class="clist__inst">วิทยากร: ภัทรพล เลิศพัชรีกุล</div>
+                            <div class="clist__date">01 Jul - 04 Jul 2024</div>
+                            <div class="clist__price">12,000 บาท</div>
+                            <div class="clist__btn">
+                                <a href="">สมัครเรียน</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/star.png" alt="">
+                        <div class="clist__detail">
+                            <div class="clist__title">
+                                <a href="">การเขียนแบบชิ้นงาน 3 มิติเบื้องต้น (SolidWorks Essentials)</a>
+                            </div>
+                            <div class="clist__inst">วิทยากร: ภัทรพล เลิศพัชรีกุล</div>
+                            <div class="clist__date">01 Jul - 04 Jul 2024</div>
+                            <div class="clist__price">12,000 บาท</div>
+                            <div class="clist__btn">
+                                <a href="">สมัครเรียน</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/star.png" alt="">
+                        <div class="clist__detail">
+                            <div class="clist__title">
+                                <a href="">การเขียนแบบชิ้นงาน 3 มิติเบื้องต้น (SolidWorks Essentials)</a>
+                            </div>
+                            <div class="clist__inst">วิทยากร: ภัทรพล เลิศพัชรีกุล</div>
+                            <div class="clist__date">01 Jul - 04 Jul 2024</div>
+                            <div class="clist__price">12,000 บาท</div>
+                            <div class="clist__btn">
+                                <a href="">สมัครเรียน</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="hamburger.js"></script>
+</body>
+</html>
